@@ -1,0 +1,26 @@
+{
+    "name": "Super Simple Public Client MSAL.js Demo",
+    "version": "1.0.0",
+    "description": "A very simple demo that shows how to use MSAL.js public client with a Node.js application.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node start.js"
+    },
+    "author": "Den",
+    "license": "MIT",
+    "dependencies": {
+        "@azure/msal-browser":"2.32.2",
+        "dotenv": "16.0.3",
+        "express": "4.18.2"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/localden/super-simple-msal-node.git"
+    },
+    "bugs": {
+        "url": "https://github.com/localden/super-simple-msal-node/issues"
+    },
+    "homepage": "https://github.com/localden/super-simple-msal-node#readme"
+}
